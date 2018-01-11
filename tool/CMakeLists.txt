@@ -1,6 +1,8 @@
 project(STM23F103C8T6 C CXX ASM)
 cmake_minimum_required(VERSION 3.5.0)
 
+include(stm32f103rbt6.cmake)
+
 set(CMAKE_VERBOSE_M‌​AKEFILE ON)
 
 add_definitions(-DSTM32F103x6)
